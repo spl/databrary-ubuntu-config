@@ -29,9 +29,9 @@ function git_install() {
 $LN "$DIR/.bashrc.local" "$HOME/"
 
 # Alphabetical order by directory name
-git_install 'git@github.com:spl/bash-config.git'      "$DIR/bash-config"
-git_install 'git@github.com:spl/editline-config.git'  "$DIR/editline-config"
-git_install 'git@github.com:spl/ghc-config.git'       "$DIR/ghc-config"
-git_install 'git@github.com:spl/git-config.git'       "$DIR/git-config"
-git_install 'git@github.com:spl/pg-config.git'        "$DIR/pg-config"
-git_install 'git@github.com:spl/vim-config.git'       "$DIR/vim-config"
+git_install 'https://github.com/spl/bash-config.git'      "$DIR/bash-config"
+git_install 'https://github.com/spl/editline-config.git'  "$DIR/editline-config"
+git_install 'https://github.com/spl/ghc-config.git'       "$DIR/ghc-config"
+git_install 'https://github.com/spl/git-config.git'       "$DIR/git-config"
+git_install 'https://github.com/spl/pg-config.git'        "$DIR/pg-config"
+git_install 'https://github.com/spl/vim-config.git'       "$DIR/vim-config"
