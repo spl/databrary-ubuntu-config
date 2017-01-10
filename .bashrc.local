@@ -1,0 +1,11 @@
+# ~/.bashrc.local: sourced by .bashrc
+
+# GNU ls with color and human-readable sizes
+alias ls='LC_ALL=C ls -Fh --color=auto'
+
+append_to_path '/opt/alex/3.1.7/bin'
+append_to_path '/opt/cabal/1.24/bin'
+append_to_path '/opt/happy/1.19.5/bin'
+append_to_path '/opt/ghc/7.10.3/bin'
+
+source_script /etc/bash_completion
